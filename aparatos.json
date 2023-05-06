@@ -1,0 +1,21 @@
+[   
+    {"nombre": "Aire Acondicionado",
+    "cantidad": "0",
+    "consumoKwh": "3",
+    "horasUso": "0"},
+
+    {"nombre": "Television",
+    "cantidad": "0",
+    "consumoKwh": "2",
+    "horasUso": "0"},
+
+    {"nombre": "Heladera",
+    "cantidad": "0",
+    "consumoKwh": "1",
+    "horasUso": "0"},
+
+    {"nombre": "Estúfa Eléctrica",
+    "cantidad": "0",
+    "consumoKwh": "5",
+    "horasUso": "0"}
+]

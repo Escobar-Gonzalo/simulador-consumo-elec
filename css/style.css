@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(19, 101, 177);
+}
+
+.title-cont{
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: 1200px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    column-gap: 40px;
+}
+
+.title-cont img{
+    width: 10%;
+}
+
+.title-cont h1{
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+    font-weight: 500;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    column-gap: 50px;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    column-gap: 50px;
+}
+
+.cont3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.223);
+    margin: 20px 500px 20px 500px;
+    
+}
+
+.cont3-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(19, 101, 177);
+    max-width: 903px;
+    width: 100vw;
+    height: 90px;
+    margin-bottom: 30px;
+}
+.cont3-head h3{
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+    font-weight: 500;
+
+}
+
+.aparato{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.223);
+    width: 700px;
+    height: 220px;
+}
+
+
+.aparato p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(97, 97, 97);
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.header-aparato{
+    background: rgb(19, 101, 177);
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: 700px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-aparato img{
+    width: 15%;
+}
+
+.header-aparato h3{
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+}
+
+form .form1 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    height: 35px;
+}
+
+form .form1 h3{
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(97, 97, 97);
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+
+form .form2 {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+}
+
+form .form2 h3{
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(97, 97, 97);
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+
+.barra {
+    width: 100%;
+    max-width: 400px;
+    padding-bottom: 10px;
+}
+
+.barra-body {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    background: #b4c0be;
+    position: relative;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
+    overflow: hidden;
+}
+
+.barra-fill {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    height: 100%;
+    background: rgb(19, 101, 177);
+    transform-origin: center top;
+    transform: rotate(0.25turn);
+    transition: transform 0.2s ease-out;
+}
+
+.barra-cover {
+    width: 75%;
+    height: 150%;
+    background: #ffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    /*texto*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #004033;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25%;
+    box-sizing: border-box;
+}
+
+.texto-kwh{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 250px;
+}
+
+.texto-kwh p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(97, 97, 97);
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.texto-final-harcodeado{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(97, 97, 97);
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-bottom: 50px;
+}
